@@ -3,19 +3,96 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     font-family: 'junction';
     src: url('fonts/Junction-webfont.eot');
     src: url('fonts/Junction-webfont.eot?#iefix') format('embedded-opentype'),
-        url('fonts/Junction-webfont.woff') format('woff'),
-        url('fonts/Junction-webfont.ttf') format('truetype'),
-        url('fonts/Junction-webfont.svg#FontName') format('svg');
+    url('fonts/Junction-webfont.woff') format('woff'),
+    url('fonts/Junction-webfont.ttf') format('truetype'),
+    url('fonts/Junction-webfont.svg#FontName') format('svg');
     font-weight: normal;
     font-style: normal;
 }
+a:hover {
+    text-decoration: none;
+}
+.wrapper {
 
+}
 body {
 	background: url('images/background.jpg');
+    background-attachment: fixed;
 }
-.mainContent {
 
+/* Menu & Header */
+
+header {
+    background-color: #113c5f;
+    opacity: .75;
+    position: fixed;
+    width: 100%;
+    z-index: 500;   
 }
-.navbar {
-	border-radius: 0;
+#main-nav{
+    margin-bottom: 0;
+}
+#main-nav li {
+	margin: 25px;
+    display: inline-block;
+    float: left;
+    font-size: 24px;
+}
+#main-nav li a {
+    color: #fff;
+}
+#main-nav li a:hover {
+    text-decoration: none;
+}
+.quick-links {
+    margin: 7px 25px 0 25px;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Main Body */
+
+#introContent {
+    padding: 100px 5% 5% 5%;
+    background: #5e7c94;
+}
+#title {
+    text-align: center;
+    font-size: 50px;
+}
+.intro-text {
+    font-size: 40px;
+    width: 860px;
+    margin: 25px auto ;
+}
+.intro-port {
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  text-align: center;
+  height: 58px;
+  padding: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+.intro-port:hover {
+    text-decoration: none;
+    background: rgba(224, 224, 235, .5);
+    color: #fff;
+}
+#skillsContent {
+    padding:5%;
+    background: url(images/skills-bg.jpg) 100% no-repeat;
+}
+.skills {
+    background: rgba(54,69,79,.5);
+    padding: 25px!important;
+}
+.contentHeader {
+    margin-top: 0;
+}
+#skillsList {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
