@@ -1,4 +1,4 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0;color:#fff;font-family: 'junction', sans-serif;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0;color:#fff;font-family: 'junction', sans-serif;overflow-x: hidden;overflow-y:auto;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}*{box-sizing:border-box;}
 @font-face {
     font-family: 'junction';
     src: url('fonts/Junction-webfont.eot');
@@ -59,6 +59,7 @@ header {
 #title {
     text-align: center;
     font-size: 50px;
+    padding: 5px 0;
 }
 .intro-text {
     font-size: 40px;
@@ -96,3 +97,63 @@ header {
     font-size: 20px;
     font-weight: bold;
 }
+#projectsContent {
+
+}
+.project {
+    background: rgba(54,69,79,.5);
+    padding: 25px!important;
+    min-height: 150px;
+    width:100%;
+    margin: 25px 0;
+}
+.project img {
+    width: 100px;
+}
+footer {
+    height: 40px;
+    width: 100%;
+}
+.projects-module {
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.fizzbuzz {
+    background: #BCCAC3;
+}
+.madlib {
+    background: #228b22;
+}
+.circle-thumb{
+    float: left;
+    width: 100px;
+    border: 1px solid transparent;
+    border-radius: 100%;
+    position: relative;
+    padding: 38px 0px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.project-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.see-example {
+    background: #fff;
+    text-align: center;
+    padding: 5px;
+    color: #113c5f;
+}
+.project-para {
+    margin-bottom: 25px;
+}
+.project-content a:hover {
+    text-decoration: none;
+}
+
+
+

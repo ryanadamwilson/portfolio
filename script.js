@@ -1,3 +1,3 @@
 function portfolioBtn() {
-	window.location.href = "/#portfolio";
+	window.location.href = "#projectsContent";
 }
