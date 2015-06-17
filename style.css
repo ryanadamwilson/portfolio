@@ -40,6 +40,10 @@ header {
 }
 #main-nav li a {
     color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 #main-nav li a:hover {
     text-decoration: none;
@@ -67,14 +71,18 @@ header {
     margin: 25px auto ;
 }
 .intro-port {
-  width: 300px;
-  margin: 0 auto;
-  border: 1px solid #fff;
-  text-align: center;
-  height: 58px;
-  padding: 18px;
-  color: #fff;
-  cursor: pointer;
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    text-align: center;
+    height: 58px;
+    padding: 18px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .intro-port:hover {
     text-decoration: none;
@@ -82,7 +90,7 @@ header {
     color: #fff;
 }
 #skillsContent {
-    padding:5%;
+    padding: 5% 25px 5% 5%;
     background: url(images/skills-bg.jpg) 100% no-repeat;
 }
 .skills {
@@ -153,6 +161,22 @@ footer {
 }
 .project-content a:hover {
     text-decoration: none;
+}
+#box-0, #box-1, #box-3, #box-4, #box-6, #box-7 {
+    border-right:2px solid #fff;
+}
+
+#box-0, #box-1, #box-2, #box-3, #box-4, #box-5 {
+    border-bottom:2px solid #fff;
+}
+.boxes {
+    height: 25px;
+    width: 25px;
+    float: left;
+}
+.tictactoe {
+    background: #181e6b;
+    padding: 14px 0 14px 11px;
 }
 
 
