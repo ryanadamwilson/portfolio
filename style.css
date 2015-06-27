@@ -105,18 +105,12 @@ header {
     font-size: 20px;
     font-weight: bold;
 }
-#projectsContent {
-
-}
 .project {
     background: rgba(54,69,79,.5);
     padding: 25px!important;
     min-height: 150px;
     width:100%;
     margin: 25px 0;
-}
-.project img {
-    width: 100px;
 }
 footer {
     height: 40px;
@@ -127,12 +121,6 @@ footer {
   padding-left: 25px;
   margin-right: auto;
   margin-left: auto;
-}
-.fizzbuzz {
-    background: #BCCAC3;
-}
-.madlib {
-    background: #228b22;
 }
 .circle-thumb{
     float: left;
@@ -146,38 +134,99 @@ footer {
     text-transform: uppercase;
     text-align: center;
 }
-.project-title {
+.title {
     font-size: 20px;
     margin-bottom: 15px;
 }
+
 .see-example {
     background: #fff;
     text-align: center;
     padding: 5px;
     color: #113c5f;
 }
-.project-para {
-    margin-bottom: 25px;
+.see-example a {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
-.project-content a:hover {
-    text-decoration: none;
+div.project .infoContain {
+  top: auto;
+  bottom: 0;
+  padding: 1em;
+  height: auto;
+  background: #113c5f;
+  color: #3c4a50;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
 }
-#box-0, #box-1, #box-3, #box-4, #box-6, #box-7 {
-    border-right:2px solid #fff;
+.project .infoContain, ..project .infoContain > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
-
-#box-0, #box-1, #box-2, #box-3, #box-4, #box-5 {
-    border-bottom:2px solid #fff;
+.project .infoContain {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
 }
-.boxes {
-    height: 25px;
-    width: 25px;
-    float: left;
+/*div.project .project-desc {
+  position: absolute;
+  bottom: 8em;
+  padding: 2em;
+  color: #fff;
+  text-transform: none;
+  font-size: 90%;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-backface-visibility: hidden;
+}*/
+.project-desc {
+  text-transform: none;
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 15px;
 }
-.tictactoe {
-    background: #181e6b;
-    padding: 14px 0 14px 11px;
+.see-example:hover {
+  background-color: #eee;
+  cursor: pointer;
 }
-
+.see-example:hover a {
+  text-decoration: none;
+  color:#337ab7;
+}
+.project:hover .infoContain, .project:hover .title, .project:hover #see-example {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+.project:hover .title {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+.project:hover .project-desc {
+  opacity: 1;
+}
+.project {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 320px;
+  max-width: 5500px;
+  /*max-height: 270px;*/    
+  text-align: center;
+}
 
 
