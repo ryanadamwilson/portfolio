@@ -113,7 +113,7 @@ header {
     margin: 25px 0;
 }
 footer {
-    height: 40px;
+    height: 100px;
     width: 100%;
 }
 .projects-module {
@@ -226,6 +226,9 @@ div.project .infoContain {
   min-width: 320px;
   max-width: 5500px;
   /*max-height: 270px;*/    
+  text-align: center;
+}
+h2 {
   text-align: center;
 }
 
